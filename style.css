@@ -1,0 +1,28 @@
+@import url("styles/header.css");
+@import url("styles/about.css");
+@import url("styles/data.css");
+@import url("styles/jobs.css");
+@import url("styles/feedback.css");
+@import url("styles/footer.css");
+
+:root {
+    --branco: #FFFFFF;
+    --backgroung-footer: #F9FAFB;
+    --preto: #101828;
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --cinza-direitos: #98A2B3;
+    --vermelho: #8E2424;
+    --borda: #EAECF0;
+    --borda-email: #D0D5DD;
+    --fonte-principal: "Inter", sans-serif;
+
+}
+
+body {
+    color: var(--cinza-claro);
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

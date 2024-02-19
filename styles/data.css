@@ -1,0 +1,32 @@
+.lista__data {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7em 6em 7em;
+    gap: 2em;
+}
+
+.data__item {
+    width: 25%;
+}
+
+
+.data__texto1 {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.data__texto2 {
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0.75em 0 0.5em 0;
+}
+
+.data__texto3 {
+    
+    line-height: 24px;
+    
+}
